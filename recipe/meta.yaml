@@ -1,5 +1,5 @@
 {% set name = "types-aiobotocore-rds" %}
-{% set version = "2.5.0" %}
+{% set version = "2.5.0.post1" %}
 {% set lib_version = version.split(".post")[0] %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e51c64712aa366b4330c7c41d5220c1a5a787cc61fbc7758cf5772ca4d6a44a1
+  sha256: 25c7b6d4243ce9aa2c2f67df74e864dc8842ce4a93ffda3c949c79a116b3a577
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
