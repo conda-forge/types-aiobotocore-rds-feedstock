@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "3.9.0"
+  version: "3.9.1"
 
 package:
   name: types-aiobotocore-rds
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/types-aiobotocore-rds/types_aiobotocore_rds-${{ version }}.tar.gz
-  sha256: 72da41333052b425bc16c5cc9d6a4bdeb653c3fa7cee35d16c87fb2e0346bfe6
+  sha256: c210e2e0add643ae764a8954fd60567dd376071176e8a420e544f2d78556b999
 
 build:
   number: 0
